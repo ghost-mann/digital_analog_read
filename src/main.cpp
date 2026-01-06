@@ -3,11 +3,11 @@
 
 void setup() {
   Serial.begin(9600);
-  init_button();
+  init_analog_button();
   
 }
 
 void loop() {
-  monitor_button();
+  monitor_analog_button();
 }
   
